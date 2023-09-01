@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import Additions from "./components/Additions";
+import CardCourses from "./components/CardCourses";
+import Categories from "./components/Categories";
+import Navbar from "./components/Navbar";
+import Slider from "./components/Slider";
+import Edge from "./components/Edge";
+import Top from "./components/Top";
+import Trainers from "./components/Trainers";
+import Process from "./components/Process";
+import Openings from "./components/Openings";
+import Buisness from "./components/Buisness";
+import Clients from "./components/Clients";
+import Form from "./components/Form";
+import Footer from "./components/Footer";
+import Location from "./components/Location";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Slider />
+      <CardCourses />
+      <Additions />
+      <Categories />
+      <Edge />
+      <Top />
+      <Trainers />
+      <Process />
+      <Buisness />
+      <Clients />
+      <Form />
+      <Location />
+      <Footer />
+    </>
   );
 }
 
